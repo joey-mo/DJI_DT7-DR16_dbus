@@ -1,0 +1,46 @@
+# ============================================================
+#  STM32CubeMX + CMake project (STM32F407 / dbus)
+# ============================================================
+
+# ---------- Build output ----------
+build/
+build-*/
+out/
+*.build/
+
+# ---------- CMake ----------
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+Testing/
+
+# ---------- Compiled objects / binaries ----------
+*.o
+*.obj
+*.a
+*.la
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.s19
+*.su
+
+# ---------- IDE / editor ----------
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# ---------- OS ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
